@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Registration Form</title>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <link rel="stylesheet" href="CSS/mystyle.css">
+      <script src="Script/myscript.js"></script>
+   </head>
+   <body>
+      <div class="heading alignCenter fontfamily fontweight">
+         <span>REGISTRATION FORM</span>
+      </div>
+      <div class="form fontsize fontfamily fontweight">
+         <form id="registrationForm">
+            <div class="flex">
+               <div class="divLabel">
+                  <label for="fname">First name</label>
+               </div>
+               <div>
+                  <input type="text" id="fname" required>
+                  <span id="firstName" style="color: red;"></span>
+               </div>
+            </div>
+            <div class="flex margintop">
+               <div class="divLabel">
+                  <label for="lname">Last name</label>
+               </div>
+               <div>
+                  <input type="text" id="lname" required>
+               </div>
+            </div>
+            <div class="flex margintop">
+               <div class="divLabel">
+                  <label for="address">Address</label>
+               </div>
+               <div>
+                  <textarea id="address" name="address" rows="4" cols="30" minlength="10" required></textarea>
+                  <span id="addressError" style="color: red;"></span>
+               </div>
+            </div>
+            <div class="flex margintop">
+               <div class="divLabel">
+                  <label for="phnumber">Phone number</label>
+               </div>
+               <div>
+                  <input type="text" id="phnumber" minlength="10" maxlength="10" required>
+                  <span id="phnoError" style="color: red;"></span>
+               </div>
+            </div>
+            <div class="flex margintop">
+               <div class="divLabel">
+                  <label for="email">Email</label>
+               </div>
+               <div>
+                  <input type="email" id="email" required>
+                  <span id="emailError" style="color: red;"></span>
+               </div>
+            </div>
+            <div class="flex margintop">
+               <div class="divLabel">
+                  <label for="password">Password</label>
+               </div>
+               <div>
+                  <input type="password" id="password"  required>
+                  <span id="passwordError" style="color: red;"></span>
+               </div>
+            </div>
+            <div class="flex margintop">
+               <div class="divLabel">
+                  <label for="cPassword">Confirm Password</label>
+               </div>
+               <div>
+                  <input type="password" id="cPassword" required>
+                  <span id="cPasswordError" style="color: red;"></span>
+               </div>
+            </div>
+            <div class="alignCenter margintop">
+               <button id="button" type="button">Submit</button>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>

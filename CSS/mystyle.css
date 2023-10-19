@@ -1,0 +1,68 @@
+
+*{
+	margin :0px;
+	padding :0px;
+}
+
+body{
+	background-image: url('../Assets/image.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.fontfamily {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+.fontsize{
+font-size: 14px;
+}
+
+.fontweight{
+
+font-weight: 600;
+
+}
+
+.heading{
+
+   
+    padding-top: 40px;
+    font-size: 24px;
+     color: white;
+    
+}
+
+.alignCenter{
+
+ text-align: center;
+}
+.form{
+
+    border: 1px solid blanchedalmond;
+    width: 32%;
+    padding: 12px;
+    margin: auto;
+    margin-top: 37px;
+    border-radius: 12px;
+
+}
+
+.flex{
+display:flex;
+}
+
+.divLabel{
+    width: 35%;
+    margin-left: 5%;
+}
+
+
+
+.justifycontent{
+    justify-content: space-evenly;
+}
+
+
+.margintop{
+margin-top: 17px;
+}
